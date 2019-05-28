@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Show message</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<h1>Result</h1>
+
+<p th:text="'Id: ' + ${student.id}"></p>
+<p th:text="'Name: ' + ${student.name}"></p>
+<p th:text="'Age: ' + ${student.age}"></p>
+<p th:text="'Father's Name: ' + ${student.father_name}"></p>
+<p th:text="'Mother's Name: ' + ${student.mother_name}"></p>
+<a href="/addstudent">Submit another message</a>
+
+</body>
+</html>
